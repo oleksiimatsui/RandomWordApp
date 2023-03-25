@@ -3,12 +3,12 @@
   "name": "Random word",
   "icons": [
     {
-      "src": "https://github.com/oleksiimatsui/RandomWordApp/blob/main/icon192x192.png",
+      "src": "https://raw.githubusercontent.com/oleksiimatsui/RandomWordApp/main/icon192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://github.com/oleksiimatsui/RandomWordApp/blob/main/icon512x512.png",
+      "src": "https://raw.githubusercontent.com/oleksiimatsui/RandomWordApp/main/icon512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
