@@ -14,10 +14,10 @@
     }
   ],
   "id": "/",
-  "start_url": "/",
+  "start_url": "https://oleksiimatsui.github.io/RandomWordApp/",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://oleksiimatsui.github.io/RandomWordApp/",
   "theme_color": "#3367D6",
   "description": "Get your random word and keep it in your cache storage"
  
