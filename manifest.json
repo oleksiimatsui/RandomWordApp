@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "PWA",
+    "short_name": "PWA",
+    "description": "An application for creating requests",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512x512.png",
+            "sizes": "512x512"
+        }
+    ]
+}
