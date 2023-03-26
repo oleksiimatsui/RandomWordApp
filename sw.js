@@ -11,16 +11,18 @@ self.addEventListener('install', event => {
   })());
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith((async () => {
-  //  const cache = await caches.open(CACHE_NAME);
-		try {
-          const fetchResponse = await fetch(event.request);
-       //   cache.put(event.request, fetchResponse.clone());
-          return fetchResponse;
-        } catch (e) {
-          // The network failed.
-        }
- //   }
-  })());
-});
+
+
+self.addEventListener('fetch', function(event) {
+   event.respondWith(async function() {
+      try{
+        var res = await fetch(event.request);
+        var cache = await caches.open(CACHE_NAME);
+        cache.put(event.request.url, res.clone());
+        return res;
+      }
+      catch(error){
+        return caches.match(event.request);
+       }
+     }());
+ });
