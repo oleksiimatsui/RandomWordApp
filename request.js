@@ -1,4 +1,5 @@
 
+const localStorageKey = "lastWord";
 const span = document.getElementById("wordSpan");
 const mode = document.getElementById("mode");
 
@@ -28,6 +29,9 @@ function onstart(){
 		span.innerText = "your first word will be here";
 	}
 }
+
+
+
 
 
 
