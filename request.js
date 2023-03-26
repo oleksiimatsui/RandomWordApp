@@ -1,4 +1,4 @@
-const localStorageKey = "lastWord";
+
 const span = document.getElementById("wordSpan");
 const mode = document.getElementById("mode");
 
@@ -7,10 +7,8 @@ function update(){
   .then((response) => response.json())
   .then((data) => {
 	  span.innerText = data;
-	  mode.innerText = "";
 	  localStorage.setItem(localStorageKey, data);
-  })
-  .catch((e) => mode.innerText = "you are offline" );
+  });
 }
 
 
@@ -30,3 +28,6 @@ function onstart(){
 		span.innerText = "your first word will be here";
 	}
 }
+
+
+
