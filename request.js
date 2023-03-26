@@ -14,7 +14,7 @@ function update(){
 
 function erase(){
 	localStorage.removeItem(localStorageKey);
-	onstart()
+	onstart();
 }
 
 onstart();
