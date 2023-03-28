@@ -19,6 +19,6 @@
   "display": "standalone",
   "scope": "https://oleksiimatsui.github.io/RandomWordApp/",
   "theme_color": "#3367D6",
-  "description": "Get your random word and keep it in your cache storage"
+  "description": "Get your random word and keep it in your local storage"
  
 }
